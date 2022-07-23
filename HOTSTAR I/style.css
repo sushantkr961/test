@@ -1,0 +1,27 @@
+input{
+    width: 500px;
+    height: 50px;
+}
+#movies{
+    margin: auto;
+    width: 505px;
+    height: 500px;
+    /* border: 1px solid blue; */
+    overflow-y: scroll;
+}
+.movie {
+    /* border: 1px solid red; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.movie img {
+    width: 100px;
+    height: 100px;
+}
+.search{
+    justify-content: center;
+    display: flex;
+}
